@@ -61,17 +61,10 @@
 .about-content  {
     padding-top: 20px;
 }
-.skills-bar p   {
-    margin-bottom: 6px;
-    font-weight: 600;
+.mission-content    {
+    padding-top: 20px;
 }
-.progress-bar   {
-    border-radius: 16px;
-}
-.progress {
-    border-radius: 16px !important;
-    margin-bottom: 20px;
-}
+
 /*--------------------Team Members-------------------*/
 #team   {
     padding-top: 50px;
