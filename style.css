@@ -351,3 +351,18 @@ h1::after   {
 {
     padding: 15px;
 }
+.form-control   
+{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder 
+{
+    color: #999 !important;
+}
+.follow 
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
