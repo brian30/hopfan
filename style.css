@@ -48,23 +48,22 @@
     font-size: 42px;
 }
 
-/*------About--------*/
-#about  {
+/*------Home--------*/
+#home  {
     padding-top: 50px;
     padding-bottom: 50px;
     color: #555;
 } 
-#about .btn  {
+#home .btn  {
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.about-content  {
+.home-content  {
     padding-top: 20px;
 }
-.mission-content    {
+.about-content    {
     padding-top: 20px;
 }
-
 
 *   {
     margin: 0;
@@ -116,8 +115,8 @@
     font-size: 42px;
 }
 
-/*------About--------*/
-#about  {
+/*------Mission--------*/
+#mission  {
     padding-top: 50px;
     padding-bottom: 50px;
     color: #555;
@@ -286,33 +285,33 @@ h1::after   {
 }
 
 /*--------------------Giving---------*/
-#giving
-{   background-image: linear-gradient
-    (rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+#give {
+    background-image: linear- gradient {
+    (rgba(0,0,0,0.8),#rgba(0.0.0.8)),
     url(img/images.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     padding-top: 50px;
-    padding-bottom: 50px;
-
+    padding-bottom: 50px; 
 }
 
-#giving h1
-{
-    text-align:center;
+h1  {
+    text-align: center;
+    color: #555 !important;
     padding-bottom: 10px;
 }
-#giving h1::after
+
+#give h1::after
 {
-   content: ''; 
+   content: '';
    background: #efefef;
    display: block;
    height: 3px;
    width: 170px;
    margin: 20px auto 5px;
 }
-.giving   
+.give  
 {
     margin-top: 40px;
 }
@@ -326,12 +325,7 @@ h1::after   {
     border: 1px solid #fff;
     border-radius: 50%;
 }
-#giving p   
-{
-    font-size: 14px;
-    margin-top: 20px;
 
-}
 .giving .column {
     transition: 0.7s;
     float: left;
