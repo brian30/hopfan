@@ -93,13 +93,12 @@
     padding-bottom: 50px;  
 }
 #team img {
-    border-radius: 50%;
+  border-radius: 50%; 
 }
 
 #team style{
     height: 50px;
     width: 50px;
-    color: darkkhaki;
 }
 
 h1  {
@@ -219,10 +218,24 @@ h1  {
 
 .give .column {
     transition: 0.7s;
+}
+
+.column {
     float: left;
     width: 33.33%;
 }
-
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
 
 /*------------------------Get in Touch-------------------*/
 #contact    
@@ -251,3 +264,6 @@ h1  {
     padding: 10px;
     margin: 15px;
 }
+
+/*------------Footer-----------*/
+
