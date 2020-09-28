@@ -50,8 +50,8 @@
 
 /*------Home--------*/
 #home  {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     color: #555;
 } 
 #home .btn  {
@@ -85,8 +85,8 @@
 
 /*--------------------Pastoral Team -------------------*/
 #team   {
-    padding-top: 30px;
-    padding-bottom: 30px;  
+    padding-top: 50px;
+    padding-bottom: 50px;  
 }
 #team img {
   border-radius: 50%; 
@@ -179,8 +179,8 @@ h1::after   {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding-top: 30px;
-    padding-bottom: 30px; 
+    padding-top: 50px;
+    padding-bottom: 50px; 
     color: #555;
 }
 
@@ -218,8 +218,8 @@ h1  {
 /*------------------------Get in Touch-------------------*/
 #contact    
 {   background: #efefef;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     color:grey;
 
 }
@@ -244,4 +244,10 @@ h1  {
 }
 
 /*------------Footer-----------*/
-
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+    margin: 3px;
+}
+    
